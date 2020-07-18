@@ -12,8 +12,6 @@ URL在于L(Locater)，一般来说（URL）统一资源定位符，可以提供�
 
 ## RFC 3986 规范
 
-RFC 3986地址：https://tools.ietf.org/html/rfc3986#section-3.3
-
 ### 语法组成
 
 **URI构造**
@@ -90,3 +88,9 @@ relative-part = "//" authority path-abempty
 1. 以双斜杆开头的相对引用被称为`network-path reference`（网络路径引用），又经常被叫做相对协议URL，本身很少被用，现在用来解决HTTP迁移HTTPS中所产生的兼容性问题，但并不是一个合理的设计。
 2. 以单斜杆开头的相对引用被称为`absolute-path reference`（绝对路径引用）。
 3. 不以单斜杆开头的相对引用被称为`relative-path reference`（相对路径引用）。
+
+
+## 资料
+RFC 3986地址：https://tools.ietf.org/html/rfc3986#section-3.3
+Follow @paul_irish https://www.paulirish.com/2010/the-protocol-relative-url/
+https://www.paulirish.com/2010/the-protocol-relative-url/
