@@ -91,6 +91,6 @@ relative-part = "//" authority path-abempty
 
 
 ## 资料
-RFC 3986地址：https://tools.ietf.org/html/rfc3986#section-3.3
-Follow @paul_irish https://www.paulirish.com/2010/the-protocol-relative-url/
+1. RFC 3986地址：https://tools.ietf.org/html/rfc3986#section-3.3
+2. Follow @paul_irish: https://www.paulirish.com/2010/the-protocol-relative-url/
 https://www.paulirish.com/2010/the-protocol-relative-url/
