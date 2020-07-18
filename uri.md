@@ -87,6 +87,6 @@ relative-part = "//" authority path-abempty
             / path-noscheme
             / path-empty
 ```
-1. 以双斜杆开头的引用被称为`network-path reference`（网络路径引用），又经常被叫做相对协议URL，本身很少被用，现在用来解决HTTP迁移HTTPS中所产生的兼容性问题，但并不是一个合理的设计。
-2. 以单斜杆开头的引用被称为`absolute-path reference`（绝对路径引用）。
-3. 不以单斜杆开头的引用被称为`relative-path reference`（相对路径引用）。
+1. 以双斜杆开头的相对引用被称为`network-path reference`（网络路径引用），又经常被叫做相对协议URL，本身很少被用，现在用来解决HTTP迁移HTTPS中所产生的兼容性问题，但并不是一个合理的设计。
+2. 以单斜杆开头的相对引用被称为`absolute-path reference`（绝对路径引用）。
+3. 不以单斜杆开头的相对引用被称为`relative-path reference`（相对路径引用）。
